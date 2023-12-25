@@ -1,0 +1,71 @@
+//variaveis
+$cor1: #98defb;
+$cor4: #003380;
+$rosio: #f1abff;
+body{
+    background-color: #98defb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    background-color: #57a8ff;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; //deixa em coluna
+    margin-top: 80px;
+    box-shadow: 3px 2px $cor4;
+    
+}
+.BI{
+    width: 90px;
+    height: 60px;
+    border-radius: 10%;
+    border: 0;
+    transition: background-color 0.3s, color 0.3s, filter 0.2s;
+    background-color: $cor1;
+    box-shadow: 3px 2px $cor4;
+    position: absolute;
+}
+.BI:hover{
+    filter: brightness(110%);
+}
+
+#b1{
+    margin-left: -144px;
+    margin-top: -15%;
+}
+#b2{
+    margin-left: -144px;
+    margin-top: 0%;
+}
+#b3{
+    margin-left: -144px;
+    margin-top: 15%;
+}
+.div{
+    background-color: $cor1;
+    box-shadow: 3px 2px $cor4;
+    width: 100px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $cor4;
+    font-size: 17px;
+}
+.texto1{
+    margin-top: 40px //40%
+}
+.texto2{
+    margin-top: 79px //79% //PORQUE A DIFERENÇA DE VALOR É 1 E FICA UMA DISTÂNCIA TÃO GRANDE?
+}
+.texto3{
+    margin-top: 80px //80%
+}
+
