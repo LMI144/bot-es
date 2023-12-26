@@ -13,4 +13,5 @@ se true1 e true3 == true: true2 = false
 se true2 e true3 == true: true1 = false
 se permanesse falso, fica com a cor padrão, se permanesse verdadeiro, fica rosa.
 se um é ativado, o outro desativa. NÃO PODE SER TUDO
+eu ainda quero continuar fazendo, só que eu não sei continuar
 */
